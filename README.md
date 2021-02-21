@@ -29,4 +29,17 @@ Some samples from the dataset:
 ### Character per sentence in the ```corpus_yandex_en```
 
 <img src="images/Yandex. Distribution of characters per sentence in Russian corpus.png" alt="">
+
+for more analysis about the datasets please refer to ```data_exploration/news_commentary_exploration.ipynb``` and ```data_exploration/yandex_data_exploration.ipynb```
+
 ## Project structure
+
+
+### Transformer
+
+<img src="images/transformer_resideual_layer_norm_3.png" alt="">
+
+
+###
+
+More details will be added later on in the project
