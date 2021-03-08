@@ -1,0 +1,13 @@
+codecov==2.1.9
+dill==0.3.2
+matplotlib==3.3.1
+numpy==1.19.1
+pandas==1.1.1
+spacy==2.3.2
+torch==1.6.0
+torchtext==0.6.0
+torchvision==0.7.0
+tqdm==4.48.2
+wget==3.2
+telepot==12.7
+nltk
