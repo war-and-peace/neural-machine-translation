@@ -67,6 +67,7 @@ from translator import Translator
 def timed_update(translator, command_text, chat_id, ingroup):
     if command_text.find('TranslateEzBot') == -1 and ingroup != False:
         return
+    command_text = command_text.replace('@TranslateEzBot', '')
     bash_handler.process_command(translator, command_text, chat_id, ingroup)
 
 
