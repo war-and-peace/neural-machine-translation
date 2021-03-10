@@ -47,13 +47,15 @@ def find_best_path(tree):
 
 class Translator:
     def __init__(self, model_path, en_field_path, ru_field_path):
-        self.D_MODEL = 256
-        self.N_LAYERS = 2
-        self.N_HEADS = 8
-        self.HIDDEN_SIZE = 512
-        self.MAX_LEN = 50
-        self.DROPOUT = 0.25
-        self.BATCH_SIZE = 64
+        self.D_MODEL = 196
+        self.N_LAYERS = 6
+        self.N_HEADS = 4
+        self.HIDDEN_SIZE = 256
+        self.MAX_LEN = 100
+        self.DROPOUT = 0.05
+        self.BATCH_SIZE = 16
+        self.LR = 5e-4
+        self.N_EPOCHS = 5
         self.GRAD_CLIP = 1.0
         self.BEAM_SIZE = 1
         
