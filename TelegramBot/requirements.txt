@@ -11,3 +11,4 @@ tqdm==4.48.2
 wget==3.2
 telepot==12.7
 nltk
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
