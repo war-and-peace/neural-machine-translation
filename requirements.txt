@@ -9,3 +9,4 @@ torchtext==0.6.0
 torchvision==0.7.0
 tqdm==4.48.2
 wget==3.2
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
